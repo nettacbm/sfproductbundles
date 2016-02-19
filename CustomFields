@@ -1,0 +1,11 @@
+Field Label: Bundle Parent
+Field Name: Bundle_Parent
+Field Type: Checkbox
+Default value: Unchecked
+Object: Product
+
+Field Label: Bundle Parent
+Field Name: Bundle_Parent
+Field Data Type: Formula - Checkbox
+Formula: PricebookEntry.Product2.Bundle_Parent__c
+Object: Opportunity Product
